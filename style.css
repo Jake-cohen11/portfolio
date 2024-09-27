@@ -1,8 +1,65 @@
+body{
+  background-color: darkgrey;
+}
 .name{  
     position: relative;
     font-size: 25px;
+    color: white;
 }
 
-.sections{
-    
+.job-title{
+    font-size: 20px;
+}
+
+h2, a, p {
+    color: white;
+    font-family: Roboto;
+    text-decoration: none;
+}
+p>a {
+    color: #fd084a;
+}
+.blink {
+  animation: blink .5s infinite;
+}
+@keyframes blink{
+  to { opacity: .0; }
+}
+.flex {
+    display: flex;
+}
+.header-sub-title {
+  position: relative;
+  color: white;
+  font-family: "Courier";
+  font-size: 20px;
+  padding: 0.1em;
+  left: 10px;
+}
+
+.openingDescription{
+  position: relative;
+  color: white;
+  font-family: "Courier";
+  font-size: 20px;
+  padding: 0.1em;
+}
+
+.sectionsContainer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  margin-top: 800px;
+  background-color: gray;
+  font-size: 30px;
+}
+
+.sections:hover{
+  color: blue;
+}
+
+img{
+  width: 50px;
 }
