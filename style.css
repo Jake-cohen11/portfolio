@@ -5,16 +5,18 @@ body{
     position: relative;
     font-size: 25px;
     color: white;
-}
-
-.job-title{
-    font-size: 20px;
+    text-align: center;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 h2, a, p {
     color: white;
     font-family: Roboto;
     text-decoration: none;
+    left: 250px;
+    top: 265px;
 }
 p>a {
     color: #fd084a;
@@ -34,7 +36,20 @@ p>a {
   font-family: "Courier";
   font-size: 20px;
   padding: 0.1em;
-  left: 10px;
+  left: 260px;
+}
+
+.scrollButton{
+  position: relative;
+  border-radius: 5px;
+  width: 200px;
+  height: 35px;
+  border-color: blue;
+  background-color: black;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 270px;
 }
 
 .openingDescription{
