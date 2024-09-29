@@ -38,4 +38,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     };
 
     typingEffect();
+
+    
 });
+
