@@ -62,4 +62,12 @@ p>a {
 
 img{
   width: 50px;
+<<<<<<< HEAD
 }
+=======
+}
+
+  html{
+    scroll-behavior: smooth;
+  }
+>>>>>>> 405a716eda85d468f8d5642b87ceaf69063c315f
