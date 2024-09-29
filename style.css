@@ -63,3 +63,7 @@ p>a {
 img{
   width: 50px;
 }
+
+  html{
+    scroll-behavior: smooth;
+  }
