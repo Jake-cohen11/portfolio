@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     let timer;
 
     function typingEffect() {
+        
         let word = words[i].split("");
         var loopTyping = function() {
             if (word.length > 0) {
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     };
 
     function deletingEffect() {
+        
         let word = words[i].split("");
         var loopDeleting = function() {
             if (word.length > 0) {
@@ -36,9 +38,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         };
         loopDeleting();
     };
-
     typingEffect();
-
-    
 });
 

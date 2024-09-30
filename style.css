@@ -86,7 +86,7 @@ p>a {
   flex-direction: row;
   width: 110%;
   height: 35px;
-  gap: 30px;
+  gap: 20px;
   margin-top: 800px;
   margin-left: -10px;
   background-color: rgb(40, 40, 40);
@@ -96,8 +96,15 @@ p>a {
   align-items: center;
 }
 
+.sections{
+  position: relative;
+  left: 20px;
+  color: rgb(0, 114, 252);
+}
+
 .sections:hover{
   color: blue;
+  cursor: pointer;
 }
 
 #about-title{
