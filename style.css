@@ -85,8 +85,26 @@ p>a {
   color: blue;
 }
 
+#about-title{
+  position: relative;
+  color: white;
+  margin-top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#portrait{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+}
+
 img{
   width: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 html{
@@ -113,5 +131,6 @@ html{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 
