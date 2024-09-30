@@ -84,12 +84,16 @@ p>a {
   top: 0;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 110%;
+  height: 35px;
   gap: 30px;
   margin-top: 800px;
-  background-color: gray;
-  font-size: 30px;
+  margin-left: -10px;
+  background-color: rgb(40, 40, 40);
+  box-shadow: 0 4px 2px -2px black;
+  font-size: 20px;
   z-index: 9999999999999999999999999;
+  align-items: center;
 }
 
 .sections:hover{
