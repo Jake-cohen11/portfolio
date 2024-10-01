@@ -30,16 +30,18 @@ p>a {
   to { opacity: .0; }
 }
 .flex {
-    display: flex;
-    
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%
 }
 .header-sub-title {
-  position: relative;
   color: white;
   font-family: "Courier";
   font-size: 20px;
   padding: 0.1em;
-}
+ }
 
 .scrollButton{
   position: relative;
@@ -51,7 +53,7 @@ p>a {
   color: rgb(0, 114, 252);
   left: 50%;
   transform: translateX(-50%);
-  top: 270px;
+  margin-top: 250px;
   border-width: 4px;
   border: solid;
 }
