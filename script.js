@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
-    let words = ['Web Developer', 'Web Designer', 'Game Developer', 'Software Engineer'];
+    let words = ["Web Developer", "Web Designer", "Game Developer", "Software Engineer"];
     let i = 0;
     let timer;
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var loopDeleting = function() {
             if (word.length > 0) {
                 word.pop();
-                document.getElementById('word').innerHTML = word.join("");
+                document.getElementById('word').innerHTML = "I'm a " + word.join("");
             } else {
                 if (words.length > (i + 1)) {
                     i++;
