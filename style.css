@@ -168,6 +168,69 @@ html{
     object-fit: contain;
 }
 
+#projects{
+  position: relative;
+  color: white;
+  margin-top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#projects::before{
+  content: '';
+  border-bottom: 18px solid rgb(0, 114, 252);
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  top: 2.6rem;
+  z-index: -1;
+}
+
+#resume{
+  position: relative;
+  color: white;
+  margin-top: 50px;
+  left: 50;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#resume::before{
+  content: '';
+  border-bottom: 18px solid rgb(0, 114, 252);
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  top: 2.6rem;
+  z-index: -1;
+}
+
+#contact-me{
+  position: relative;
+  color: white;
+  margin-top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#contact-me::before{
+  content: '';
+  border-bottom: 18px solid rgb(0, 114, 252);
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  top: 2.6rem;
+  z-index: -1;
+}
+
 h2{
   color: white;
 }
