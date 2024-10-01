@@ -1,3 +1,5 @@
+
+
 body{
   background-color: rgb(25, 25, 25);
 }
@@ -81,7 +83,7 @@ p>a {
   flex-direction: row;
   width: 110%;
   height: 35px;
-  gap: 30px;
+  gap: 10px;
   margin-top: 800px;
   margin-left: -10px;
   background-color: rgb(40, 40, 40);
@@ -92,7 +94,17 @@ p>a {
 }
 
 .sections:hover{
-  color: blue;
+  color: rgb(0, 114, 252);
+  cursor: pointer;
+  transition: .2s;
+}
+
+.sections{
+  position: relative;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: white
 }
 
 #about-title{
@@ -103,6 +115,19 @@ p>a {
   transform: translateX(-50%);
   text-align: center;
 }
+
+#about-title::before{
+  content: '';
+  border-bottom: 18px solid rgb(0, 114, 252);
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  top: 2.6rem;
+  z-index: -1;
+}
+
 
 #portrait{
   position: relative;
@@ -119,6 +144,7 @@ img{
 
 html{
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
   }
 
 .iconContainer{
