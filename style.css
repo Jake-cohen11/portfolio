@@ -177,7 +177,7 @@ html{
 #projects::before{
   content: '';
   border-bottom: 18px solid rgb(0, 114, 252);
-  width: 8rem;
+  width: 6.5rem;
   display: block;
   margin: 0 auto;
   position: relative;
@@ -190,7 +190,7 @@ html{
   position: relative;
   color: white;
   margin-top: 50px;
-  left: 50;
+  left: 50%;
   transform: translateX(-50%);
   text-align: center;
 }
@@ -198,12 +198,12 @@ html{
 #resume::before{
   content: '';
   border-bottom: 18px solid rgb(0, 114, 252);
-  width: 8rem;
+  width: 6.5rem;
   display: block;
   margin: 0 auto;
   position: relative;
   left: 1.5rem;
-  top: 1.6rem;
+  top: 3.9rem;
   z-index: -1;
 }
 
@@ -219,12 +219,12 @@ html{
 #contact-me::before{
   content: '';
   border-bottom: 18px solid rgb(0, 114, 252);
-  width: 8rem;
+  width: 10rem;
   display: block;
   margin: 0 auto;
   position: relative;
   left: 1.5rem;
-  top: 2.6rem;
+  top: 3.9rem;
   z-index: -1;
 }
 
