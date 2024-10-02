@@ -12,10 +12,10 @@
         </div>
         <button class="scrollButton" input type="button" onClick="document.getElementById('sections-container').scrollIntoView();">View my work ↓ </button>
         <div id="sections-container" class="sectionsContainer">
-            <div class="sections">About me</div>
-            <div class="sections">Projects</div>
-            <div class="sections">Resume</div>
-            <div class="sections">Contact me!</div>
+            <div class="sections" input type="button" onClick="document.getElementById('about-me').scrollIntoView();">About me</div>
+            <div class="sections" input type="button" onClick="document.getElementById('projects').scrollIntoView();">Projects</div>
+            <div class="sections" input type="button" onClick="document.getElementById('resume').scrollIntoView();">Resume</div>
+            <div class="sections" input type="button" onClick="document.getElementById('contact-me').scrollIntoView();">Contact me!</div>
         </div>
         <div id="about-me">
             <h1 id="about-title">About Me</h1>
@@ -41,13 +41,23 @@
             </div>
         </div>
         <div id="projects">
-            <h2>Projects</h2>
+            <h1>Projects</h1>
         </div>
-        <div id="resume"></div>
-            <h2>Resume</h2>
+        <div id="resume">
+            <h1>Resume</h1>
         </div>
-        <div id="contact-me"></div>
-            <h2>Contact me!</h2>
+        <div id="contact-me">
+            <h1>Contact me!</h1>
+            <form action="" class="contact-left">
+                <div class="contact-left-title"></div>
+                <input type="text" name="name" placeholder="your name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="your email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">submit<img/button>
+            </form>
+            <div class="contact-right">
+                <img>
+            </div>
         </div>
         <h1></h1>
     </body>
