@@ -125,7 +125,6 @@ p>a {
   z-index: -1;
 }
 
-
 #portrait{
   position: relative;
   left: 50%;
@@ -140,29 +139,28 @@ img{
 }
 
 html{
-    scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
   }
 
 .iconContainer{
+  position: relative;
   display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-    max-width: 300px;
-    margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 300px;
 }
 
 .icon {
   flex: 1 1 calc(33.333% - 20px);
-    box-sizing: border-box;
-    padding: 20px;
-    background-color: rgb(25, 25, 25);;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    object-fit: contain;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(25, 25, 25);;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
 }
 
 #projects{
