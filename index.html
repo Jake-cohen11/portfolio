@@ -48,14 +48,19 @@
         </div>
         <div id="contact-me">
             <h1>Contact me!</h1>
-            <form action="" class="contact-left">
-                <div class="contact-left-title"></div>
-                <input type="text" name="name" placeholder="your name" class="contact-inputs" required>
-                <input type="email" name="email" placeholder="your email" class="contact-inputs" required>
-                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-                <button type="submit">submit<img/button>
-            </form>
-            <div class="contact-right">
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2>Get in touch</h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="b2cbe2ec-b2a3-4487-8f5b-1d210c84d5a2">
+                    <input type="text" name="name" placeholder="your name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="your email" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                    <button type="submit">submit<img/button>
+                </form>
+                <div class="contact-right">
                 <img>
             </div>
         </div>
