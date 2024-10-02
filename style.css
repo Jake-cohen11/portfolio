@@ -1,3 +1,5 @@
+
+
 body{
   background-color: rgb(25, 25, 25);
 }
@@ -15,29 +17,34 @@ h2, a, p {
     color: white;
     font-family: Roboto;
     text-decoration: none;
-    left: 250px;
+    left: 42.%;
     top: 265px;
+    
 }
 p>a {
     color: #fd084a;
 }
 .blink {
   animation: blink .5s infinite;
+  
 }
 @keyframes blink{
   to { opacity: .0; }
 }
 .flex {
-    display: flex;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 90%;
+  transform: translateX(-50%);
+  top: 50%;
 }
 .header-sub-title {
-  position: relative;
   color: white;
   font-family: "Courier";
   font-size: 20px;
   padding: 0.1em;
-  left: 260px;
-}
+ }
 
 .scrollButton{
   position: relative;
@@ -49,7 +56,7 @@ p>a {
   color: rgb(0, 114, 252);
   left: 50%;
   transform: translateX(-50%);
-  top: 270px;
+  margin-top: 300px;
   border-width: 4px;
   border: solid;
 }
@@ -57,15 +64,6 @@ p>a {
 .scrollButton:hover{
   cursor: pointer;
   background-color: black;
-}
-
-
-.openingDescription{
-  position: relative;
-  color: white;
-  font-family: "Courier";
-  font-size: 20px;
-  padding: 0.1em;
 }
 
 .description{
@@ -86,7 +84,7 @@ p>a {
   flex-direction: row;
   width: 110%;
   height: 35px;
-  gap: 20px;
+  gap: 10px;
   margin-top: 800px;
   margin-left: -10px;
   background-color: rgb(40, 40, 40);
@@ -104,7 +102,6 @@ p>a {
 
 .sections:hover{
   color: blue;
-  cursor: pointer;
 }
 
 #about-title{
@@ -115,6 +112,19 @@ p>a {
   transform: translateX(-50%);
   text-align: center;
 }
+
+#about-title::before{
+  content: '';
+  border-bottom: 18px solid rgb(0, 114, 252);
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  top: 2.6rem;
+  z-index: -1;
+}
+
 
 #portrait{
   position: relative;
@@ -131,6 +141,7 @@ img{
 
 html{
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
   }
 
 .iconContainer{
@@ -152,6 +163,69 @@ html{
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     object-fit: contain;
+}
+
+#projects{
+  position: relative;
+  color: white;
+  margin-top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#projects::before{
+  content: '';
+  border-bottom: 18px solid rgb(0, 114, 252);
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  top: 2.6rem;
+  z-index: -1;
+}
+
+#resume{
+  position: relative;
+  color: white;
+  margin-top: 50px;
+  left: 50;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#resume::before{
+  content: '';
+  border-bottom: 18px solid rgb(0, 114, 252);
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  top: 2.6rem;
+  z-index: -1;
+}
+
+#contact-me{
+  position: relative;
+  color: white;
+  margin-top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#contact-me::before{
+  content: '';
+  border-bottom: 18px solid rgb(0, 114, 252);
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  top: 2.6rem;
+  z-index: -1;
 }
 
 h2{
