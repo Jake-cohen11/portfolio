@@ -294,6 +294,27 @@ h2{
 }
 
 #linkedin{
+  position: relative;
   cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#linkedin::after{
+  content: '';
+  border-bottom: 5px solid rgb(0, 114, 252);
+  width: 6em;
+  position: absolute;
+  left: 13em;
+  bottom: 0;
+  transition: height 0.8s ease;
+  z-index: -1;
+}
+
+#linkedin:hover::after{
+  transition: height 0.8s ease;
+  border-bottom: 20px solid rgb(0, 114, 252);
+  height: 100%;
 }
 
