@@ -308,8 +308,9 @@ h2{
   content: '';
   border-bottom: 5px solid rgb(0, 114, 252);
   width: 6em;
-  position: absolute;
-  left: 13em;
+  height: 5em;
+  position: relative;
+  left: 1em;
   bottom: 0;
   transition: height 0.8s ease;
   z-index: -1;
