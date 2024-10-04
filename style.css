@@ -124,6 +124,8 @@ p>a {
 
 #portrait{
   position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   width: 100px;
@@ -177,7 +179,7 @@ html{
   margin: 0 auto;
   position: relative;
   left: 1.5rem;
-  top: 3.9em;
+  top: 2.5em;
   z-index: -1;
 }
 
@@ -198,7 +200,7 @@ html{
   margin: 0 auto;
   position: relative;
   left: 1.5rem;
-  top: 3.9rem;
+  top: 2.5rem;
   z-index: -1;
 }
 
@@ -219,7 +221,7 @@ html{
   margin: 0 auto;
   position: relative;
   left: 1.5rem;
-  top: 3.9rem;
+  top: 2.5rem;
   z-index: -1;
 }
 
