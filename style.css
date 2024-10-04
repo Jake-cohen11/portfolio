@@ -99,6 +99,7 @@ p>a {
 
 .sections:hover{
   color: blue;
+  cursor: pointer;
 }
 
 #about-title{
