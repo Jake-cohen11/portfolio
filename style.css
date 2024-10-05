@@ -1,13 +1,14 @@
 body{
   background-color: rgb(25, 25, 25);
 }
+
 .name{  
     position: relative;
     font-size: 25px;
     color: white;
     text-align: center;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
 
@@ -31,10 +32,10 @@ p>a {
 .flex {
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
-  left: 90%;
-  transform: translateX(-50%);
   top: 50%;
+  transform: translateY(-50%);
 }
 .header-sub-title {
   color: white;
@@ -45,6 +46,7 @@ p>a {
 
 .scrollButton{
   position: relative;
+  display: flex;
   border-radius: 5px;
   width: 200px;
   height: 35px;
@@ -56,6 +58,9 @@ p>a {
   margin-top: 300px;
   border-width: 4px;
   border: solid;
+  justify-content: center;
+  align-items: center;
+  top: 30px;
 }
 
 .scrollButton:hover{
@@ -151,9 +156,18 @@ html{
   gap: 20px;
   padding: 20px;
   max-width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .icon {
+  display: flex;
   flex: 1 1 calc(33.333% - 20px);
   box-sizing: border-box;
   padding: 20px;
@@ -162,6 +176,8 @@ html{
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: contain;
+  justify-content: center;
+  align-items: center;
 }
 
 #projects{
