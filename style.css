@@ -347,3 +347,24 @@ h2{
   height: 100%;
 }
 
+.gitLink{
+  margin-left: 20px;
+}
+
+.gitLink:after{
+  content: '';
+  border-bottom: 5px solid rgb(0, 114, 252);
+  width: 5.5em;
+  height: 5em;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.8s ease;
+  z-index: -1;
+}
+
+.gitLink:hover:after{
+  transition: height 0.8s ease;
+  border-bottom: 20px solid rgb(0, 114, 252);
+  height: 100%;
+}
+
