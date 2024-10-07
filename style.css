@@ -323,6 +323,11 @@ h2{
 
 .linkContainer{
   display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 25px;
 }
 
 .linkedinLink{
@@ -332,7 +337,7 @@ h2{
   text-decoration: none;
   color: white;
   margin-bottom: 20px;
-  left: 50%;
+
 }
 
 .linkedinLink::after{
@@ -353,7 +358,12 @@ h2{
 }
 
 .gitLink{
-  margin-left: 20px;
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .gitLink:after{
