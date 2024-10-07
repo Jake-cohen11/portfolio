@@ -153,21 +153,19 @@ html{
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   padding: 20px;
   max-width: 300px;
-  justify-content: center;
-  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .grid{
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
-  left: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .icon {
@@ -180,8 +178,6 @@ html{
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: contain;
-  justify-content: center;
-  align-items: center;
 }
 
 #projects{
