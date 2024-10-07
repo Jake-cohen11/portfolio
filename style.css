@@ -313,6 +313,13 @@ h2{
   cursor: pointer;
 }
 
+.emailSubmit{
+  position: relative;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 #linkedin{
   position: relative;
   cursor: pointer;
