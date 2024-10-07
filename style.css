@@ -144,7 +144,7 @@ img{
   transform: translateX(-50%);
 }
 
-html{
+html, body{
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
   }
@@ -157,6 +157,9 @@ html{
   max-width: 300px;
   left: 50%;
   transform: translateX(-50%);
+  align-items: center;
+  align-content: ccenter;
+  justify-content: center;
 }
 
 .grid{
@@ -171,7 +174,6 @@ html{
 .icon {
   display: flex;
   flex: 1 1 calc(33.333% - 20px);
-  box-sizing: border-box;
   padding: 20px;
   background-color: rgb(25, 25, 25);;
   border: 1px solid #ddd;
