@@ -344,7 +344,7 @@ h2{
   content: '';
   border-bottom: 5px solid rgb(0, 114, 252);
   width: 5.5em;
-  height: 5em;
+  height: 8em;
   position: absolute;
   bottom: 0;
   transition: height 0.8s ease;
@@ -353,7 +353,7 @@ h2{
 
 .linkedinLink:hover::after{
   transition: height 0.8s ease;
-  border-bottom: 20px solid rgb(0, 114, 252);
+  border-bottom: 30px solid rgb(0, 114, 252);
   height: 100%;
 }
 
@@ -379,7 +379,7 @@ h2{
 
 .gitLink:hover:after{
   transition: height 0.8s ease;
-  border-bottom: 20px solid rgb(0, 114, 252);
+  border-bottom: 30px solid rgb(0, 114, 252);
   height: 100%;
 }
 
