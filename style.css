@@ -60,11 +60,10 @@ p>a {
   border: solid;
   justify-content: center;
   align-items: center;
-  margin-top: 450px;
 }
 
 .scrollButton:hover{
-  cursor: pointer;
+  cursor:margin pointer;
   background-color: black;
 }
 
@@ -257,10 +256,12 @@ h2{
 }
 
 .contact-container{
+  position: relative;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 0px;
 }
 
 .contact-left{
@@ -324,6 +325,7 @@ h2{
 }
 
 .linkContainer{
+  position: relative;
   display: flex;
   align-items: center;
   align-content: center;
@@ -339,7 +341,7 @@ h2{
   text-decoration: none;
   color: white;
   margin-bottom: 20px;
-
+  margin-top: -500px;
 }
 
 .linkedinLink::after{
@@ -365,6 +367,7 @@ h2{
   text-decoration: none;
   color: white;
   margin-bottom: 20px;
+  margin-top: -500px;
 }
 
 .gitLink:after{
