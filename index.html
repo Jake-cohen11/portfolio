@@ -6,11 +6,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="name">Hello, I'm Jake</div>
+        <div class="scroll-container">
+            <div class="name">Hello, I'm Jake</div>
+            <div class="button-wrapper">
+                <button class="scrollButton" input type="button" onClick="document.getElementById('sections-container').scrollIntoView();">View my work ↓ </button>
+            </div>
+        </div>
         <div class="flex">
             <p class="header-sub-title" id="word"></p><p class="header-sub-title blink">|</p>
         </div>
-        <button class="scrollButton" input type="button" onClick="document.getElementById('sections-container').scrollIntoView();">View my work ↓ </button>
         <div id="sections-container" class="sectionsContainer">
             <div class="sections" input type="button" onClick="document.getElementById('about-me').scrollIntoView();">About me</div>
             <div class="sections" input type="button" onClick="document.getElementById('projects').scrollIntoView();">Projects</div>
