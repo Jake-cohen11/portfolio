@@ -24,21 +24,18 @@ p>a {
 .flex {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .scroll-container{
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .name{  
   position: relative;
   font-size: 25px;
   color: white;
-  text-align: center;
 }
 
 .scrollButton{
@@ -50,7 +47,7 @@ p>a {
   border-color: rgb(0, 114, 252);
   background-color: rgb(25, 25, 25);
   color: rgb(0, 114, 252);
-  margin-top: 300px;
+  margin-top: 30px;
   border-width: 4px;
   border: solid;
   justify-content: center;
