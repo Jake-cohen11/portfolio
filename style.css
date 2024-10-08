@@ -60,6 +60,7 @@ p>a {
   border: solid;
   justify-content: center;
   align-items: center;
+  margin-top: 450px;
 }
 
 .scrollButton:hover{
@@ -161,7 +162,7 @@ html, body{
 }
 
 .iconContainer{
-  position: relative;
+  position: relative; 
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
   margin-left: 100px;
