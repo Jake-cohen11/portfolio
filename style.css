@@ -262,17 +262,18 @@ h2{
 .contact-container{
   position: relative;
   height: 100vh;
-  display: flex;
+  display: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 0px;
 }
 
 .contact-left{
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   gap: 20px;
+  margin-top: 20px;
 }
 
 .contact-left-title h2{
@@ -280,6 +281,7 @@ h2{
   width: 400px;
   font-size: 20px;
   margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .contact-left-title hr{
@@ -324,8 +326,6 @@ h2{
 .emailSubmit{
   position: relative;
   align-items: center;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .linkContainer{
