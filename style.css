@@ -261,7 +261,6 @@ h2{
 
 .contact-container{
   position: relative;
-  height: 100vh;
   display: column;
   flex-direction: row;
   align-items: center;
@@ -331,11 +330,12 @@ h2{
 .linkContainer{
   position: relative;
   display: flex;
-  align-items: center;
   align-content: center;
   justify-content: center;
   gap: 15px;
   font-size: 25px;
+  bottom: 100px;
+  margin-bottom: 15px;
 }
 
 .linkedinLink{
@@ -345,7 +345,6 @@ h2{
   text-decoration: none;
   color: white;
   margin-bottom: 20px;
-  margin-top: -500px;
 }
 
 .linkedinLink::after{
@@ -371,13 +370,12 @@ h2{
   text-decoration: none;
   color: white;
   margin-bottom: 20px;
-  margin-top: -500px;
 }
 
 .gitLink:after{
   content: '';
   border-bottom: 5px solid rgb(0, 114, 252);
-  width: 5.5em;
+  width: 4.8em;
   position: absolute;
   bottom: 0;
   transition: height 0.8s ease;
