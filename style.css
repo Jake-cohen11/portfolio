@@ -101,8 +101,10 @@ p>a {
 
 .sections{
   position: relative;
+  font-family: 'Roboto', sans-serif;
   left: 20px;
   color: rgb(0, 114, 252);
+  font-weight: 600;
 }
 
 .sections:hover{
