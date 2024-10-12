@@ -230,6 +230,10 @@ html, body{
   z-index: -1;
 }
 
+.resume-link{
+  margin-top: -100px;
+}
+
 #contact-me{
   position: relative;
   color: white;
